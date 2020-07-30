@@ -1,0 +1,27 @@
+body,html {
+    background-color: lightsteelblue;
+}
+
+#getQuote {
+    margin: 0 auto;
+    position: absolute;
+    top: 180px;
+    left: 300px;
+    width: 700px;
+    height: 180px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 3em;
+}
+
+#demo {
+    border: 2px solid black;
+    color: #fff;
+    width: 300px;
+    height: 70px;
+    margin: 400px auto;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.5em;
+    background-color: rgba(0, 0, 0, .3);
+}
