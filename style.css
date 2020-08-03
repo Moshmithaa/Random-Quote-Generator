@@ -25,3 +25,53 @@ body,html {
     font-size: 1.5em;
     background-color: rgba(0, 0, 0, .3);
 }
+
+@media screen and (max-width: 280px) {
+    #getQuote {
+        font-size: 20px;
+        top: 400px;
+        left: -10px;
+    }
+    #demo {
+        margin: 600px auto;
+        position: absolute;
+        left: 250px;
+        font-size: 20px;
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+    
+    #getQuote {
+        left: 20px;
+    }
+
+    #demo {
+        margin: 600px auto;
+        position: absolute;
+        left: 200px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1020px) {
+
+    #getQuote {
+        left: 20px;
+    }
+
+    #demo {
+        margin: 600px auto;
+        position: absolute;
+        left: 220px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #getQuote {
+        left: 180px;
+    }
+    #demo {
+        margin: 600px auto;
+    }
+}
